@@ -12,4 +12,4 @@ Some DSA practice, one more time
 
 - [x] Level Order Traversal
 
-- [ ] Max depth and height
+- [x] Max depth or height
