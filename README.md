@@ -6,10 +6,10 @@ Some DSA practice, one more time
 
 ### Trees
 
-[X] Basics - Create, insert, delete
+- [x] Basics - Create, insert, delete
 
-[X] Traversal - inorder, preorder, postorder
+- [x] Traversal - inorder, preorder, postorder
 
-[X] Level Order Traversal
+- [x] Level Order Traversal
 
-[ ] Max depth and height
+- [ ] Max depth and height
