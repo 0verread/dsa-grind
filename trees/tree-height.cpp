@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cassert>
 
 using namespace std;
 
@@ -35,12 +36,13 @@ int main(){
     
     struct node *root1 = new node(10);
     int max_height = tree_height(root);
+    assert(max_height==2);
     int max_height_1 = tree_height(NULL);
+    assert(max_height_1==0);
     int max_height_2 = tree_height(root1);
-    cout <<"Max height of the tree is: " << max_height << "\n";
-    cout <<"Max height of the tree is: " << max_height_1 << "\n";
-    cout <<"Max height of the tree is: " << max_height_2 << "\n";
-
+    assert(max_height_2==1);
     return 0;
 
 }
+
+
